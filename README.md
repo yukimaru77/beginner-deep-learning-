@@ -108,7 +108,7 @@
 ### 🎤 音声生成系
 
 #### 08. 音声合成（TTS）
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yukimaru77/beginner-deep-learning-/blob/main/08_音声合成_TTS.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yukimaru77/beginner-deep-learning-/blob/main/08_音声合成_TTS_T4.ipynb)
 
 **技術**: Zonos TTS
 **内容**: テキストから音声を生成（多言語対応、感情表現可能）
