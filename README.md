@@ -1,6 +1,6 @@
 # 深層学習体験 - Jupyter Notebook集
 
-このリポジトリは、深層学習の様々な技術を実際に体験できるJupyter Notebook(Pythonで書かれたプログラム)のコレクションです。
+このリポジトリは、深層学習の様々な技術を実際に体験できるJupyter Notebook(Pythonで書かれたプログラム)集です。
 
 ## 🎯 このリポジトリについて
 
@@ -18,6 +18,41 @@
 
 ## 📚 Notebook一覧
 
+(授業で扱うもの)
+
+#### 02. 画像分類（CPU）
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yukimaru77/beginner-deep-learning-/blob/main/02_画像分類_CPU.ipynb)
+
+**技術**: Vision Transformer (ViT)
+**内容**: NSFW画像検出モデルで画像の適切性を判定
+**応用例**: SNSやGoogle画像検索のフィルタリング
+
+---
+
+
+### 🎨 画像編集系（T4 GPU推奨）
+
+#### 07. AI画像編集（T4）
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yukimaru77/beginner-deep-learning-/blob/main/07_AI画像編集_T4.ipynb)
+
+**技術**: Instruct-Pix2Pix (Stable Diffusion)
+**内容**: テキスト指示で画像を編集
+
+---
+
+
+### 🎤 音声生成系
+
+#### 08. 音声合成（TTS）
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yukimaru77/beginner-deep-learning-/blob/main/08_音声合成_TTS_T4.ipynb)
+
+**技術**: Zonos TTS
+**内容**: テキストから音声を生成（多言語対応、感情表現可能）
+
+---
+
+(授業では扱わないもの、興味があれば)
+
 ### 🖼️ 画像処理系（CPU対応）
 
 #### 01. 深度推定（CPU）
@@ -29,14 +64,7 @@
 
 ---
 
-#### 02. 画像分類（CPU）
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yukimaru77/beginner-deep-learning-/blob/main/02_画像分類_CPU.ipynb)
 
-**技術**: Vision Transformer (ViT)
-**内容**: NSFW画像検出モデルで画像の適切性を判定
-**応用例**: SNSやGoogle画像検索のフィルタリング
-
----
 
 #### 03. バーコード検出（CPU）
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yukimaru77/beginner-deep-learning-/blob/main/03_バーコード検出_CPU.ipynb)
@@ -71,26 +99,6 @@
 
 **技術**: LTX-Video
 **内容**: テキストプロンプトだけから動画を生成
-
----
-
-### 🎨 画像編集系（T4 GPU推奨）
-
-#### 07. AI画像編集（T4）
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yukimaru77/beginner-deep-learning-/blob/main/07_AI画像編集_T4.ipynb)
-
-**技術**: Instruct-Pix2Pix (Stable Diffusion)
-**内容**: テキスト指示で画像を編集
-
----
-
-### 🎤 音声生成系
-
-#### 08. 音声合成（TTS）
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yukimaru77/beginner-deep-learning-/blob/main/08_音声合成_TTS_T4.ipynb)
-
-**技術**: Zonos TTS
-**内容**: テキストから音声を生成（多言語対応、感情表現可能）
 
 ---
 
